@@ -41,10 +41,10 @@ nav a{
 }
 
 nav button{
-    background-color: #0a9598;
-    border: 1px solid whitesmoke;
+    background-color: white;
+    border: 1px solid #033c64;
     border-radius: 8px;
-    color: whitesmoke;
+    color: #033c64;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -64,18 +64,61 @@ nav button{
     margin: auto;
 }
 
-.contentContainer {
-    color: #67074e;
+.contentContainer{
+    padding: 0 80px;
+}
+
+.contentContainer h1{
+    color: #033c64;
+    font-family:sans-serif;
 
 }
 
+.contentContainer p {
+    color: grey;
+    font-family:lorem-ipsum;
+}
+
+.contentContainer span {
+    color: #0a9598;
+
+}
 .aboutUsBtn {
-    background-color: #a0d6b4;
+    background-color: #67074e;
     border: 1px solid whitesmoke;
-    border-radius: 8px;
+    border-radius: 0px;
     color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     font-weight: 600;
     height: 40px;
+    width: 200px;
+}
+
+.SecondaryBtn {
+    background-color: white;
+    border: 1px solid #033c64;
+    border-radius: 8px;
+    color: #033c64;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    height: 40px;
+}
+
+@media screen and (max-width: 750px){
+    header {
+        flex-direction: column;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+
+    }
 }
