@@ -120,6 +120,9 @@ nav button{
     .main {
         display: flex;
         flex-direction: column;
-
+        align-items: center;
+    }
+    .contentImg {
+        margin: 50px 0;
     }
 }
