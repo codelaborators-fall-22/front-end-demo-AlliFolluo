@@ -76,7 +76,8 @@ nav button{
 
 .contentContainer p {
     color: grey;
-    font-family:lorem-ipsum;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
 }
 
 .contentContainer span {
